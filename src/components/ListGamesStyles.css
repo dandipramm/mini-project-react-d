@@ -1,0 +1,28 @@
+.body-games {
+  margin-top: 50px;
+  display: flex;
+}
+.element {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 3rem;
+}
+.element img {
+  max-width: 1000px;
+}
+.element-div {
+  height: 300px;
+  margin: 0 auto;
+  border: 3px solid #fff;
+  padding: 30px;
+}
+
+@media screen and (max-width: 1140px) {
+  .element {
+    grid-template-columns: 1fr;
+  }
+}
